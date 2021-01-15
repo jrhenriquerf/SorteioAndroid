@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sorteio</string>
+    <string name="title_activity_lista_contatos">Sorteios</string>
+    <string name="title_activity_contato">Sorteio</string>
+</resources>

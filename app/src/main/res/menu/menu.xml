@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/novo"
+        android:icon="@drawable/ic_sorteio"
+        android:title="Novo"
+        app:showAsAction="always"/>
+    <item
+        android:title="Mais Opcões"
+        android:icon="@drawable/ic_opcoes"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/sorteio"
+                android:icon="@drawable/ic_sorteio"
+                app:showAsAction="always"
+                android:title="Novo Sorteio"/>
+            <item
+                android:id="@+id/preferencias"
+                android:icon="@drawable/ic_preferencias"
+                app:showAsAction="always"
+                android:title="Preferências"/>
+        </menu>
+    </item>
+
+</menu>
